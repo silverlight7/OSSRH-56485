@@ -14,7 +14,6 @@ import lombok.ToString;
 @ToString(callSuper = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseResult<T> {
-
     private boolean success;
     private String message;
     private T result;
