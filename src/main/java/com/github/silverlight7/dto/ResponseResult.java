@@ -1,4 +1,4 @@
-package com.thinkingin.cloud.dto;
+package com.github.silverlight7.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -14,10 +14,8 @@ import lombok.ToString;
 @ToString(callSuper = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseResult<T> {
-
     private boolean success;
     private String message;
     private T result;
     private String errorMsg;
-
 }

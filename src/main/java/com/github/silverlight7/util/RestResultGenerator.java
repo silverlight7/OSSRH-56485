@@ -1,6 +1,6 @@
-package com.thinkingin.cloud.util;
+package com.github.silverlight7.util;
 
-import com.thinkingin.cloud.dto.ResponseResult;
+import com.github.silverlight7.dto.ResponseResult;
 
 /**
  * @author wbw

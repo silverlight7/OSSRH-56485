@@ -1,7 +1,7 @@
-package com.thinkingin.cloud.log.annotation;
+package com.github.silverlight7.log.annotation;
 
 
-import com.thinkingin.cloud.log.config.RuntimeLoggerConfiguration;
+import com.github.silverlight7.log.config.RuntimeLoggerConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

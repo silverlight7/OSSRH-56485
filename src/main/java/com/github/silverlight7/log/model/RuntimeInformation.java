@@ -1,4 +1,4 @@
-package com.thinkingin.cloud.log.model;
+package com.github.silverlight7.log.model;
 
 import lombok.Data;
 

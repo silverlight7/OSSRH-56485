@@ -1,4 +1,4 @@
-package com.thinkingin.cloud.log.annotation;
+package com.github.silverlight7.log.annotation;
 
 import java.lang.annotation.*;
 

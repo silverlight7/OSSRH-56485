@@ -1,10 +1,10 @@
-package com.thinkingin.cloud.log.config;
+package com.github.silverlight7.log.config;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.thinkingin.cloud.log.annotation.LogRuntimeLogger;
-import com.thinkingin.cloud.log.annotation.LogTag;
-import com.thinkingin.cloud.log.model.RuntimeInformation;
+import com.github.silverlight7.log.annotation.LogRuntimeLogger;
+import com.github.silverlight7.log.annotation.LogTag;
+import com.github.silverlight7.log.model.RuntimeInformation;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
